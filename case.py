@@ -178,12 +178,9 @@ if __name__ == "__main__":
 
     # check if all have same columns
     check_cols = "Index(['correlationId', 'message'], dtype='object')"
-
     for p, json in zip(pandas_files[1:], json_files[1:]):
         assert (check_cols==str(p.columns)), 'Unexpected JSON format, initial columns do not match. File {}'.format(json)
 
     final = pd.concat([traverse_and_flatten(my_panda) for my_panda in pandas_files])
     
     final.to_csv('BlueEnergy18.csv', index = False)
-
-
