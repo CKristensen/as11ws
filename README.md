@@ -20,3 +20,5 @@ RESOLUTION:
 Solved using a algorithm that tranverses each json file to get the flattened rows with all information.
 Concatenates all rows into a dataframe that is saved into a csv file *BlueEnergy18*
 
+Basic Visualization on PowerBI
+
