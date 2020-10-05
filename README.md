@@ -1,4 +1,4 @@
-# Klavaness_case
+# Klavaness Digital
 Klavaness Digital - Data Engineering Case resolution
 
 To test the script run on teminal:
