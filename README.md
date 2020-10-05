@@ -1,5 +1,5 @@
-# klavaness_case
-Klavaness Digital Case
+# Klavaness_case
+Klavaness Digital - Data Engineering Case resolution
 
 To test the script run on teminal:
 - python case.py
